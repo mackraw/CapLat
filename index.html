@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>CapLat</title>
+</head>
+<body>
+
+	<h1><span class="col1">Cap</span><span class="col2">Lat</span></h1>
+	<p>Calculate caption latency and automatically create SRT files synced to speech</p>
+
+	<div class="boxes">
+
+		<div class="row">
+			<textarea rows="10" cols="35" id="inputSub" placeholder="Paste your Sub"></textarea>
+		
+			<textarea rows="10" cols="35" id="inputTab" placeholder="Paste your CSV"></textarea>
+		</div>
+
+		<div id="buttons">
+			<button id="convertBtn">Recreate SRT</button>
+			<button id="latencyBtn">Latency</button>
+		</div>
+
+	  <div class="row">
+	    <textarea rows="15" cols="74" id="result" placeholder="End result will appear here"></textarea>
+	  </div>
+
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
